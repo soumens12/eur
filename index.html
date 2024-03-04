@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event</title>
+
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+
+    <!---- Google Font -------------------------------------------------------------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----Bootstrap----------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="vendor/bootstrap-icons/bootstrap-icons.css" />
+
+    <!----Main CSS---------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="nav-header" class="nav-header">
+      <nav class="navbar navbar-expand-lg fixed-top p-2">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="EUR" width="84" height="44" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ms-auto p-2 text-center"
+            >
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link" aria-current="page" href="about.html"
+                  >ABOUT US</a
+                >
+              </li>
+              <li class="dropdown nav-item nav-btn me-xl-3 me-md-1">
+                <a
+                  href="#"
+                  class="dropdown-toggle nav-link"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Services
+                  <span class="caret"><i class="bi bi-chevron-down"></i></span
+                ></a>
+                <ul class="dropdown-menu">
+                  <li><a href="townhall.html">Townhall</a></li>
+                  <li><a href="sportsday.html">Sportday</a></li>
+                  <li><a href="digitalevents.html">Digital Event</a></li>
+                  <li><a href="videostoryboard.html">Video Story Board</a></li>
+                  <li><a href="profile.html">Profile Video</a></li>
+                </ul>
+              </li>
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link" aria-current="page" href="gallery.html"
+                  >GALLERY</a
+                >
+              </li>
+
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link" aria-current="page" href="clientele.html"
+                  >CLIENTEE</a
+                >
+              </li>
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link" aria-current="page" href="blogs.html"
+                  >Blogs</a
+                >
+              </li>
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link" aria-current="page" href="bts.html">BTS</a>
+              </li>
+
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link" aria-current="page" href="#">EUR EDU</a>
+              </li>
+
+              <li class="nav-item nav-btn me-xl-3 me-md-1">
+                <a class="nav-link" aria-current="page" href="#">CAREER</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section-padding">
+        <img src="img/hero.png" alt="" />
+      </section>
+
+      <section id="event" class="event section-padding">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6">
+              <div class="event-dream mb-5">
+                <h2 class="event-dream-text">
+                  Netflix & Chill? Pass. Get Lit with Events That Trend.
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center justify-content-around">
+            <div class="col-lg-4">
+              <div class="event-drive">
+                <img src="img/dream.png" />
+                <div class="event-text text-white text-center">
+                  <h2 class="event-text-data">Dream</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="event-drive">
+                <img src="img/drive.png" />
+                <div class="event-text text-white text-center">
+                  <h2>Drive</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="event-drive">
+                <img src="img/deliver.png" />
+                <div class="event-text text-white text-center">
+                  <h2>Deliver</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="goal" class="goal section-padding">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-9">
+              <div class="goal-event text-center">
+                <h2 class="goal-event-text">
+                  Event Goals? We Rock Them Forget event stress, imagine:
+                </h2>
+
+                <p class="goal-event-para mt-4">
+                  Corporate gatherings that spark genuine connections. Social
+                  events that make memories that last a lifetime. Marketing
+                  launches that leave audiences speechless.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <h2 class="goal-event-text">Our mission</h2>
+              <p class="goal-event-partner">- Wow you</p>
+              <p class="goal-event-partner">- Exceed expectations</p>
+              <p class="goal-event-partner">- Make it seamless</p>
+            </div>
+            <div class="col-lg-1 mt-4">
+              <div class="vertical-divide"></div>
+            </div>
+
+            <div class="col-lg-5">
+              <h2 class="goal-event-text">Our vision</h2>
+              <p class="goal-event-partner">- Your trusted event partner</p>
+              <p class="goal-event-partner">- Events that rock, every time</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="event" class="event section-padding px-0 px-lg-5">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4">
+              <div class="event-drive">
+                <img src="img/experience.png" />
+                <div class="event-text text-white text-center">
+                  <h2><span>13</span></h2>
+                  <p class="event-text-deliver">Years of Experience</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="event-drive">
+                <img src="img/businessman.webp" />
+                <div class="event-text text-white text-center">
+                  <h2><span>75</span>+</h2>
+                  <p class="event-text-deliver">Clients</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="event-drive">
+                <img src="img/rocked-event.png" />
+                <div class="event-text text-white text-center">
+                  <h2><span>2000</span>+</h2>
+                  <p class="event-text-deliver">Rocked Events</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solution" class="solution section-padding">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-8">
+              <div class="event-dream text-center text-white">
+                <h2 class="event-dream-text">What we do</h2>
+
+                <p class="goal-event-partner">
+                  360- degree, One stop solution for all kinds of events,
+                  because experience matters.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row text-center text-white">
+            <div class="event-dream-data">
+              <div class="event-drive-dream text-center">
+                <img src="img/palace.png" />
+                <h4 class="text-center mt-4">Town halls</h4>
+                <p class="ab">
+                  Powerful events that connect, inspire, and empower. Town
+                  halls, team-building, and more.
+                </p>
+              </div>
+
+              <div class="event-drive-dream align-items-end text-center">
+                <img src="img/soccerstadium.png" />
+                <h4 class="text-center mt-4">Sports day</h4>
+                <p class="ab">
+                  Unforgettable gatherings with joy, connection, and shared
+                  memories.
+                </p>
+              </div>
+
+              <div class="event-drive-dream text-center">
+                <img src="img/exclusivescenerydecor.png" />
+                <h4 class="text-center mt-4">Digital events</h4>
+                <p class="ab">
+                  Creative solutions for activations and marketing events.
+                </p>
+              </div>
+
+              <div class="event-drive-dream text-center">
+                <img src="img/wirelesstransmitter.png" />
+                <h4 class="text-center mt-4">Video Storyboards</h4>
+                <p class="ab">
+                  Seamless, immersive virtual experiences that engage and
+                  inspire.
+                </p>
+              </div>
+
+              <div class="event-drive-dream text-center">
+                <img src="img/videocam.png" />
+                <h4 class="text-center mt-4">Profile videos</h4>
+                <p class="ab">
+                  Compelling storyboarding and video production that brings your
+                  vision to life.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="success" class="success bg-white section-padding">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-9">
+              <div class="goal-event text-center">
+                <h2 class="goal-event-text">Beloved Event Highlights</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4 mb-3">
+              <div class="event-drive">
+                <img src="img/dream.png" width="400" height="200" />
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+              <div class="event-drive">
+                <img src="img/drive.png" width="400" height="200" />
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+              <div class="event-drive">
+                <img src="img/deliver.png" width="400" height="200" />
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+              <div class="event-drive">
+                <img src="img/dream.png" width="400" height="200" />
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+              <div class="event-drive">
+                <img src="img/dream.png" width="400" height="200" />
+              </div>
+            </div>
+
+            <div class="col-lg-4 mb-3">
+              <div class="event-drive">
+                <img src="img/dream.png" width="400" height="200" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-9">
+              <div class="goal-event">
+                <h2 class="goal-event-text text-center">
+                  Our Partners in Success
+                </h2>
+
+                <p class="goal-event-para">
+                  Invest in #MemoriesThatLast. EUR delivers events that exceed
+                  your expectations and have your audience going 'OMG, how?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery-section">
+        <div class="flex-container">
+          <div class="flex-slide">
+            <img src="img/do-bg.png" alt="" />
+          </div>
+          <div class="flex-slide">
+            <img src="img/hero.png" alt="" />
+          </div>
+          <div class="flex-slide">
+            <img src="img/deliver.png" alt="" />
+          </div>
+          <div class="flex-slide">
+            <img src="img/contact-bg.jpg" alt="" />
+          </div>
+          <div class="flex-slide">
+            <img src="img/drive.png" alt="" />
+          </div>
+          <div class="flex-slide">
+            <img src="img/do-bg.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <div class="row text-white">
+            <div class="col-lg-4"></div>
+
+            <div class="col-lg-8">
+              <div class="contact-detail text-center">
+                <h2 class="contact-text">CONTACT <span>US </span></h2>
+                <p class="goal-event-partner">
+                  Want to discuss your event needs in more detail?
+                </p>
+
+                <div
+                  class="row d-flex align-items-center justify-content-center mb-3"
+                >
+                  <div class="col-lg-12">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Name*"
+                      aria-label="Name"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="row contact-data d-flex align-items-center justify-content-center mb-3"
+                >
+                  <div class="col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Email"
+                      aria-label="Email"
+                    />
+                  </div>
+
+                  <div class="col-lg-6">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Phone Number"
+                      aria-label="Phone Number"
+                    />
+                  </div>
+                </div>
+
+                <div
+                  class="row d-flex align-items-center justify-content-center mb-3"
+                >
+                  <div class="col-lg-12">
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="6"
+                      placeholder="Message"
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div
+                  class="row d-flex align-items-center justify-content-center mb-3"
+                >
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-sub btn-danger">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial section-padding gtco-testimonials">
+        <div class="container-fluid">
+          <div class="owl-carousel owl-carousel1 owl-theme">
+            <div>
+              <div class="card text-center">
+                <div class="card-body">
+                  <p class="card-text">
+                    “ Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat ”
+                  </p>
+                  <div
+                    class="d-flex gap-4 align-items-center justify-content-center"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
+                      alt=""
+                    />
+                    <h5>Martha Brown</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card text-center">
+                <div class="card-body">
+                  <p class="card-text">
+                    “ Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat ”
+                  </p>
+                  <div
+                    class="d-flex gap-4 align-items-center justify-content-center"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
+                      alt=""
+                    />
+                    <h5>Martha Brown</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card text-center">
+                <div class="card-body">
+                  <p class="card-text">
+                    “ Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat ”
+                  </p>
+                  <div
+                    class="d-flex gap-4 align-items-center justify-content-center"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
+                      alt=""
+                    />
+                    <h5>Martha Brown</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="card text-center">
+                <div class="card-body">
+                  <p class="card-text">
+                    “ Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat ”
+                  </p>
+                  <div
+                    class="d-flex gap-4 align-items-center justify-content-center"
+                  >
+                    <img
+                      class="card-img-top"
+                      src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
+                      alt=""
+                    />
+                    <h5>Martha Brown</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-3">
+                <h5 class="footer-text text-white mb-4">Headquarters</h5>
+                <p class="d-flex align-items-center mb-4">
+                  <span class="bx bx-map mr-2 mt-1"></span
+                  ><span
+                    >Event U Rox 408, 1st link Road, 18th cross, 3rd block,
+                    Jayanagar, Near Empire Hotel, Bengaluru-560011</span
+                  >
+                </p>
+                <p class="d-flex align-items-center mb-4">
+                  <span class="bx bx-map mr-2 mt-1"></span><span>PHONE</span
+                  ><span class="phone-email">
+                    +91 99006 39009 / <br />+91 99866 66633
+                  </span>
+                </p>
+                <p class="d-flex align-items-center">
+                  <span class="bx bx-map mr-2 mt-1"></span><span>EMAIL </span>
+                  <span class="phone-email"> business@eventurox.in</span>
+                </p>
+              </div>
+
+              <div class="col-lg-1">
+                <div class="vertical-divider"></div>
+              </div>
+
+              <div
+                class="col-lg-4 d-flex align-items-center justify-content-center"
+              >
+                <div class="footer-img mb-0 text-center">
+                  <a href="#">
+                    <img src="img/logo.png" width="300px" alt="" />
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-1 mt-4">
+                <div class="vertical-divider"></div>
+              </div>
+
+              <div class="col-lg-3">
+                <p class="footer-text text-center text-white text-uppercase">
+                  Social Support
+                </p>
+
+                <div
+                  class="social_footer d-flex align-items-center justify-content-around mt-4"
+                >
+                  <a href="#" class="socail-img">
+                    <img src="img/facebook.png" width="40px" height="40px" />
+                  </a>
+
+                  <a href="#" class="socail-img">
+                    <img src="img/instagram.png" width="40px" height="40px" />
+                  </a>
+
+                  <a href="#" class="socail-img">
+                    <img src="img/linkedin.png" width="40px" height="40px" />
+                  </a>
+                </div>
+
+                <ul
+                  class="justify-content-center gap-3 list-unstyled my-4 d-flex flex-column gap-3 foot-downmenu"
+                >
+                  <li class="text-secondary">
+                    <a
+                      href="privacypolicy.html"
+                      class="text-secondary text-decoration-none"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                  <li class="text-secondary">
+                    <a
+                      href="cancellation.html"
+                      class="text-secondary text-decoration-none"
+                      >Cancellation & Refund Policy</a
+                    >
+                  </li>
+                  <li class="text-secondary">
+                    <a
+                      href="termsandconditions.html"
+                      class="text-secondary text-decoration-none"
+                      >Terms and Conditions</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Jquery--------------------------------------------------------------------------------------------------->
+    <script src="vendor/jquery/jquery-3.7.1.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        var counters = $(".count");
+        var countersQuantity = counters.length;
+        var counter = [];
+
+        for (i = 0; i < countersQuantity; i++) {
+          counter[i] = parseInt(counters[i].innerHTML);
+        }
+
+        var count = function (start, value, id) {
+          var localStart = start;
+          setInterval(function () {
+            if (localStart < value) {
+              localStart++;
+              counters[id].innerHTML = localStart;
+            }
+          }, 40);
+        };
+
+        for (j = 0; j < countersQuantity; j++) {
+          count(0, counter[j], j);
+        }
+      });
+    </script>
+  </body>
+</html>

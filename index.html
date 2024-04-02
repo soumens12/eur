@@ -306,37 +306,37 @@
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-4 mb-3">
               <div class="event-drive">
-                <img src="img/dream.png" width="400" height="200" />
+                <img src="img/event/event1.webp" width="400" height="200" />
               </div>
             </div>
 
             <div class="col-lg-4 mb-3">
               <div class="event-drive">
-                <img src="img/drive.png" width="400" height="200" />
+                <img src="img/event/event2.webp" width="400" height="200" />
               </div>
             </div>
 
             <div class="col-lg-4 mb-3">
               <div class="event-drive">
-                <img src="img/deliver.png" width="400" height="200" />
+                <img src="img/event/event3.webp" width="400" height="200" />
               </div>
             </div>
 
             <div class="col-lg-4 mb-3">
               <div class="event-drive">
-                <img src="img/dream.png" width="400" height="200" />
+                <img src="img/event/event4.webp" width="400" height="200" />
               </div>
             </div>
 
             <div class="col-lg-4 mb-3">
               <div class="event-drive">
-                <img src="img/dream.png" width="400" height="200" />
+                <img src="img/event/event5.webp" width="400" height="200" />
               </div>
             </div>
 
             <div class="col-lg-4 mb-3">
               <div class="event-drive">
-                <img src="img/dream.png" width="400" height="200" />
+                <img src="img/event/event6.webp" width="400" height="200" />
               </div>
             </div>
           </div>
@@ -376,6 +376,28 @@
           </div>
           <div class="flex-slide">
             <img src="img/do-bg.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="py-5 bg-light">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="preview__content">
+                <!-- start Fla-shop.com HTML5 Map -->
+                <div id='map-container'></div>
+                <link href="vendor/map/map.css" rel="stylesheet">
+                <script src="vendor/map/raphael.min.js"></script>
+                <script src="vendor/map/settings.js"></script>
+                <script src="vendor/map/paths.js"></script>
+                <script src="vendor/map/map.js"></script>
+                <script>
+                  map_cfg.mapWidth = 0;
+                  var map = new FlaMap(map_cfg);
+                  map.drawOnDomReady('map-container');
+                </script>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -643,6 +665,8 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="vendor/owl-carousel/owl.carousel.min.js"></script>
 
+    
+
     <script src="js/main.js"></script>
     <script>
       $(document).ready(function () {
@@ -661,7 +685,7 @@
               localStart++;
               counters[id].innerHTML = localStart;
             }
-          }, 40);
+          }, 1);
         };
 
         for (j = 0; j < countersQuantity; j++) {

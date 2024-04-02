@@ -303,13 +303,16 @@ solution section css
     transform: scale(1.2);
     filter: blur(1);
   }
-
+  .event-drive h2,  .event-drive p
+  {
+    transition: all .2s ease-in-out; 
+  }
   .event-drive:hover h2{
-    display: none;
+    transform: scale(1.1);
   }
 
   .event-drive:hover p{
-    display: none;
+    transform: scale(1.1);
   }
 
 
@@ -324,7 +327,10 @@ solution section css
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: linear-gradient(92.56deg, #C00000 12.75%, rgb(215 78 0) 76.14%);
+    background: linear-gradient(90deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365)) var(--x, 0)/ 200%;
   }
+  .event-text:hover { --x: 100%; }
 
   .event-text h2 {
       font-family: "Inter";
@@ -332,7 +338,7 @@ solution section css
       font-weight: 900;
       letter-spacing: 0em;
       text-align: center;
-      color: rgba(255, 0, 0, 1);
+      color: #000;
 
   }
 
@@ -345,7 +351,7 @@ solution section css
       line-height: 0px;
       letter-spacing: 0em;
       text-align: center;
-      color: rgba(255, 0, 0, 1);
+      color: rgb(255, 255, 255);
 }
 
 .event-drive-dream{

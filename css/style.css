@@ -1710,10 +1710,13 @@ footer {
   
     .carrer-data {
       background-color: #F3EAEA;
-      padding: 130px 125px;
       width: 700px;
-      height: 600px;
+      height: 700px;
       border-radius: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px 60px;
     }
   
     .carrer-data h3 {

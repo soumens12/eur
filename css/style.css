@@ -1553,3 +1553,417 @@ footer {
     bottom: 0;
     z-index: 999999;
 }
+
+
+/*=============
+    contact section css
+    ==============*/
+  
+  
+    .contact-talk {
+      background-color: #930505;
+    }
+  
+    .contact-detail {
+      background-color: rgba(0, 0, 0, 1);
+    }
+  
+    .detail {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+  
+    .contact-info-data {
+      position: relative;
+    }
+  
+    .contact-info {
+      position: relative;
+      padding: 80px;
+    }
+  
+    .contact-img img {
+      width: 100%;
+      height: 227px;
+      object-fit: cover;
+    }
+  
+    .contact-img {
+      position: absolute;
+      top: -15px;
+      left: 0;
+      width: 70%;
+    }
+  
+    .contact-form {
+      text-align: left;
+    }
+  
+    .contact-item img {
+      width: 30%;
+      height: 180px;
+      object-fit: contain;
+  
+    }
+  
+    .contact-form h2 {
+      margin-bottom: 20px;
+      padding: 50px;
+      font-size: 52px;
+      color: #FFAF00;
+    }
+  
+    .contact-form input[type="text"],
+    .contact-form input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid #FFAF00;
+      border-radius: 10px;
+    }
+  
+    .contact-form label {
+      width: 100%;
+    }
+  
+  
+    .contact-form textarea {
+      width: 100%;
+      height: 100px;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      border-bottom: 1px solid #FFAF00;
+  
+    }
+  
+    .contact-form button {
+      background-color: #930505;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      width: 50%;
+    }
+  
+    .contact-form button:hover {
+      background-color: #C00000;
+    }
+  
+    @media only screen and (max-width:991px) {
+      .contact-info {
+        padding: 30px;
+      }
+  
+      .contact-form h2 {
+        padding: 20px;
+      }
+  
+      .contact-img img {
+        display: none;
+  
+      }
+    }
+  
+  
+    /*=========== Carrer ================= */
+  
+    .about-raw-text-data {
+      margin-bottom: 30px;
+    }
+  
+    .about-raw-text-data h4 {
+      font-family: "Inter";
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: 0em;
+  
+    }
+  
+    .about-raw-text-data p {
+      font-family: "Inter";
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 30px;
+      letter-spacing: 0em;
+    }
+  
+  
+    .carrer-section-carousel {
+      width: 100%;
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+      gap: 40px;
+    }
+  
+    .carrer-section-carousel img {
+      /* width: 270px !important; */
+      height: 300px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  
+    .carrer-data {
+      background-color: #F3EAEA;
+      padding: 130px 125px;
+      width: 700px;
+      height: 600px;
+      border-radius: 50%;
+    }
+  
+    .carrer-data h3 {
+      font-family: "Poppins";
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+  
+    .carrer-data p {
+      font-family: "Poppins";
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 40px;
+      text-align: left;
+  
+    }
+  
+    .carrer-data-portal {
+      margin-left: 20px;
+      height: 200px;
+      box-shadow: 0 0 0.125rem rgba(24,24,24,0.08),0 0.125rem 0.25rem 0.0625rem rgba(24,24,24,0.16);
+      padding: 20px 40px;
+      border-radius: 25px;
+      margin-bottom: 50px;
+    }
+  
+    .carrer-data-portal h5 {
+      font-family: "Poppins";
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 27px;
+      text-align: left;
+      background-color: #FECBCB;
+      max-width: fit-content;
+      padding: 5px 20px;
+      border-radius: 30px;
+    }
+  
+    .data-button {
+      display: flex;
+      align-items: end;
+      justify-content: end;
+    }
+  
+    .btn-view {
+      background: transparent;
+      color: blue;
+    }
+  
+    .modal-apply {
+      display: flex;
+      justify-content: flex-start;
+    }
+  
+    .btn-apply {
+      background: transparent;
+      color: blue;
+    }
+  
+    @media only screen and (max-width:991px) {
+      .carrer-data {
+        padding: 70px 52px;
+        width: 400px;
+        height: 300px;
+      }
+  
+      .carrer-data h3 {
+        font-size: 24px;
+        line-height: 48px;
+        margin-bottom: 0px;
+      }
+  
+      .carrer-data p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+  
+      .carrer-data-portal {
+        margin-left: 0px;
+  
+      }
+    }
+  
+    /*===================== job ================== */
+  
+    .title-data-text {
+      min-width: fit-content;
+    }
+  
+    .title-data {
+      gap: 30px;
+    }
+  
+    .title-data-text-display {
+      font-family: "Poppins";
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 38px;
+      text-align: left;
+  
+    }
+  
+    .title-text {
+      font-family: "Poppins";
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 72px;
+      text-align: left;
+  
+    }
+  
+    .contact-profile-img img {
+      width: 100%;
+      height: 800px;
+      object-fit: cover;
+    }
+  
+    .contact-talk-profile h2 {
+      margin-bottom: 80px;
+      padding: 50px;
+      font-size: 52px;
+      color: #FFAF00;
+    }
+  
+    @media only screen and (max-width:991px) {
+      .title-data-text-display {
+        font-size: 18px;
+        line-height: 28px;
+      }
+  
+      .about-hero-img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        object-fit: cover;
+        /* object-position: top; */
+        object-position: right;
+      }
+  
+      .contact-data-form {
+        display: none;
+      }
+    }
+  
+  
+    .contact-info-profile {
+      background-image: url(../img/contact.webp);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      /* filter: opacity(70%); */
+    }
+  
+    .contact-form-display input[type="text"],
+    .contact-form-display input[type="email"],
+    .contact-form-display input[type="tel"],
+    .contact-form-display textarea {
+      width: 100%;
+      padding: 25px 0px;
+      margin-bottom: 30px;
+      border: none;
+      border-radius: 5px;
+      background: transparent;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+    }
+  
+    .contact-form-display input[type="text"]:focus,
+    .contact-form-display input[type="email"]:focus,
+    .contact-form-display input[type="tel"]:focus,
+    .contact-form-display textarea:focus {
+      outline: none;
+    }
+  
+    .contact-form-display button[type="submit"] {
+      background-color: #CE2028;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+      padding: 25px;
+    }
+  
+    .contact-form-display button[type="submit"]:hover {
+      background-color: #CE2028;
+  
+    }
+  
+    .contact-form-data {
+      background-color: #770101;
+      padding: 30px 20px;
+      border-bottom-right-radius: 100px;
+  
+    }
+  
+    .contact-form-display {
+      padding: 25px 60px;
+    }
+  
+    .contact-form-display input[type="text"],
+    .contact-form-display input[type="email"],
+    .contact-form-display input[type="tel"],
+    .contact-form-display textarea {
+      color: #fff;
+    }
+  
+    .contact-data {
+      position: relative;
+    }
+  
+    .contact-data-form {
+      position: absolute;
+      top: 100px;
+      left: 120px;
+      background: linear-gradient(rgba(226, 226, 226, 0.69), rgba(225, 225, 225, 1));
+      max-width: fit-content;
+      width: 691px;
+      height: 400px;
+      padding: 110px 100px;
+      border-top-left-radius: 200px;
+    }
+  
+    .contact-data-form h3 {
+      font-family: "Inter";
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 60.51px;
+      text-align: left;
+  
+    }
+  
+    .contact-data-form p {
+      font-family: "Inter";
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 35.51px;
+      text-align: left;
+  
+  
+    }
+  
+  
+    .contact-data-form span {
+      color: rgba(255, 175, 0, 1);
+  
+  
+    }

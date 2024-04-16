@@ -1249,7 +1249,7 @@ section.testimonial.section-padding.gtco-testimonials:after {
   height: 100%;
   top: 0;
   object-fit: cover;
-
+  object-position: top;
 }
 
 .about-raw img{
@@ -1774,6 +1774,15 @@ footer {
     .btn-apply {
       background: transparent;
       color: blue;
+    }
+
+    .career-data-icon{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .career-icon i{
+      font-size: 24px;
     }
   
     @media only screen and (max-width:991px) {

@@ -381,6 +381,46 @@ success section css
     margin-bottom: 20px;
 }
 
+.client-gallery-carousel{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  gap: 40px;
+}
+
+.client-gallery-carousel img{
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 20px;
+  transition: all 0.3s;
+  object-fit: cover;
+  
+}
+
+.owl-prev span{
+position: absolute;
+top: 17%;
+left: 1px;
+font-size: 81px;
+color: aquamarine;
+}
+.owl-next span{
+  position: absolute;
+  top: 17%;
+  font-size: 81px;
+  color: aquamarine;
+  right: 0px;
+  }
+
+  .owl-next span:hover{
+    color: #264dfa;
+  }
+  .owl-prev span:hover{
+    color: #264dfa;
+  }
+
 
 
 .goal-event-para {
@@ -1616,12 +1656,18 @@ footer {
     }
   
     .contact-form input[type="text"],
+    .contact-form input[type="file"],
     .contact-form input {
       width: 100%;
-      padding: 10px;
-      margin-bottom: 20px;
-      border-bottom: 1px solid #FFAF00;
+      padding: 15px;
       border-radius: 10px;
+      box-shadow: 1px 4px 9px #0c0c0c24;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .contact-form label
+    {
+      margin-bottom: 5px;
     }
   
     .contact-form label {
@@ -1647,6 +1693,8 @@ footer {
       padding: 10px 20px;
       cursor: pointer;
       width: 50%;
+      margin-top: 15px;
+      border-radius: 5px;
     }
   
     .contact-form button:hover {
@@ -1879,7 +1927,7 @@ footer {
     }
   
     .contact-talk-profile h2 {
-      margin-bottom: 80px;
+      margin-bottom: 40px;
       padding: 50px;
       font-size: 52px;
       color: #FFAF00;

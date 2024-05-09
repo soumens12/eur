@@ -84,6 +84,36 @@
       }
     });
 
+//client gallery carousel
+    $(".client-gallery-carousel").owlCarousel({
+      loop: true,
+      center: true,
+      margin: 15,
+      responsiveClass: true,
+      nav: true,
+      dots: false,
+      autoplay:true,
+      autoplayTimeout:3000,
+      autoplayHoverPause:false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        900: {
+          items: 3,
+          nav: true,
+          loop: true
+        },
+        1400: {
+          items: 5,
+          nav: true,
+          loop:true,
+        }
+      }
+      
+    });
+
 
 
       $('.navbar .dropdown').hover(function () {

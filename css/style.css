@@ -2056,6 +2056,44 @@ footer {
   
     .contact-data-form span {
       color: rgba(255, 175, 0, 1);
-  
-  
+    }
+
+
+    /==========================client=============================================/
+.marquee-wrapper
+{
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Marquees{
+	overflow-x: hidden;
+}
+.Marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150vw;
+}
+.marquee{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 15px;
+}
+.marquee:hover{
+  background: #1d1d1d;
+}
+.SecondRow{
+  animation: Scroll 20s linear infinite;
+  animation-direction: reverse;
+}
+@keyframes Scroll {
+  0% {transform: translateX(-50vw);
+      -webkit-transform: translateX(-50vw);}
+    100% {transform: translateX(50vw);
+        -webkit-transform: translateX(50vw);}
     }
